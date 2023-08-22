@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-p, span, h1 {
+p, span, h1, svg, strong, input {
   font-family: 'Inter', sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  @apply text-zinc-800;
+  @apply text-zinc-700;
 }
